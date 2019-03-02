@@ -12,21 +12,21 @@ let appData = {
 };
 
 // Цикл for 
-// for (let i = 0; i < 2; i++) {
-//     let a = prompt("введите обязательно статью расходов в этом месяце ", ''),
-//         b = prompt("Во сколько обойдется?", '');
+for (let i = 0; i < 2; i++) {
+    let a = prompt("введите обязательно статью расходов в этом месяце ", ''),
+        b = prompt("Во сколько обойдется?", '');
 
 
 
-//     if ((typeof (a)) === 'string' && (typeof (a)) != null && (typeof (b)) != null &&
-//         a != '' && b != '' && a.length < 50) {
-//         console.log('done');
-//         appData.expenses[a] = b;
-//     } else {
-//      i--;
-//      alert("некорректный ввод, повторите попытку!");
-//     }
-// };
+    if ((typeof (a)) === 'string' && (typeof (a)) != null && (typeof (b)) != null &&
+        a != '' && b != '' && a.length < 50) {
+        console.log('done');
+        appData.expenses[a] = b;
+    } else {
+     i--;
+     alert("некорректный ввод, повторите попытку!");
+    }
+};
 
 // Цикл for 
 
@@ -51,7 +51,30 @@ let appData = {
 // // Цикл while
 
 
-// // цикл while 
+
+// цикл do while
+// let i = 0;
+// do {
+//     let a = prompt("введите обязательно статью расходов в этом месяце ", ''),
+//         b = prompt("Во сколько обойдется?", '');
+
+//     i++;
+//     if ((typeof (a)) === 'string' && (typeof (a)) != null && (typeof (b)) != null &&
+//         a != '' && b != '' && a.length < 50) {
+//         console.log('done');
+//         appData.expenses[a] = b;
+//     } else {
+//         alert("некорректный ввод, повторите попытку!");
+//         i--;
+
+//     }
+
+// } while (i < 1)
+// // цикл do while 
+
+
+
+//  реалищация через функцию
 // function validate() {
 //     let i = 0;
 //     let a = prompt("введите обязательно статью расходов в этом месяце ", ''),
@@ -72,7 +95,7 @@ let appData = {
 // }
 // validate();
 
-// // цикл while 
+//  реалищация через функцию
 
 
 
